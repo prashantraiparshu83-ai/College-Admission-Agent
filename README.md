@@ -72,9 +72,6 @@ Edit `.env`:
 WATSONX_API_KEY=<your IBM Cloud API key>
 WATSONX_PROJECT_ID=<your Watsonx project ID>
 WATSONX_URL=https://us-south.ml.cloud.ibm.com
-FLASK_SECRET_KEY=<random secure string>
-FLASK_ENV=development
-FLASK_DEBUG=True
 APP_PORT=5000
 ```
 
