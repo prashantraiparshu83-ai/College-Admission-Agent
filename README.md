@@ -14,13 +14,6 @@ College Admission/
 ├── .env                      # Your credentials (DO NOT commit)
 ├── data/
 │   └── admission_data.py     # RAG knowledge base (institutional data)
-├── templates/
-│   └── index.html            # Main frontend template (Jinja2)
-├── static/
-│   ├── css/
-│   │   └── style.css         # Custom CSS (dark mode, animations)
-│   └── js/
-│       └── main.js           # Frontend logic (chat, markdown, UI)
 └── README.md
 ```
 
@@ -251,7 +244,6 @@ docker run -p 5000:5000 --env-file .env admission-agent
 | Scholarships | Card view of all financial aid programmes |
 | FAQ Browser | Searchable FAQ with category grouping |
 | Contact | All contact info with working tel/mailto/web links |
-| Flask Status | Live health-check indicator for the Flask API |
 | Demo Mode | Works without IBM credentials (mock responses) |
 
 ---
@@ -288,4 +280,4 @@ To adapt for a different institution:
 
 ---
 
-*Built with IBM Watsonx.ai · Granite · Flask · Streamlit · Bootstrap 5*
+*Built with IBM Watsonx.ai · Granite · Streamlit · *
