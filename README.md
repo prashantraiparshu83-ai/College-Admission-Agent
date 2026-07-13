@@ -18,6 +18,15 @@ College Admission/
 ```
 
 ---
+## Project Overview
+
+<img width="1919" height="963" alt="Image" src="https://github.com/user-attachments/assets/ea95ef81-67d7-42e1-999b-82b08dfe335a" />
+
+<img width="1919" height="962" alt="Image" src="https://github.com/user-attachments/assets/c28ff175-6d19-4a60-8be4-e2627755c08d" />
+
+<img width="1919" height="970" alt="Image" src="https://github.com/user-attachments/assets/7219c901-5c8b-49ef-9b38-fbf526041fcc" />
+
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b9a3a2f2-26ae-4c0b-805a-c2ec29180628" />
 
 ## ⚡ Quick Start (Local)
 
@@ -217,21 +226,6 @@ docker run -p 5000:5000 --env-file .env admission-agent
 
 ## 🎨 Features
 
-### Flask App (Student-Facing · `app.py`)
-
-| Feature | Details |
-|---|---|
-| AI Chat | IBM Granite 13B Instruct via Watsonx.ai |
-| RAG | Institutional knowledge injected as context |
-| Dark Mode | Auto-detects system preference, toggle button |
-| Responsive | Mobile-first Bootstrap 5.3 layout |
-| Animations | Fade-in-up on scroll, bubble entrance |
-| Markdown | Bot responses rendered with bold, lists, code |
-| Quick Prompts | One-click pre-filled questions |
-| Course Dashboard | Sortable/filterable cutoff table |
-| Deadline Timeline | With past-deadline visual indicator |
-| Demo Mode | Runs without credentials for UI preview |
-| Health Check | `/api/health` shows live/demo status |
 
 ### Streamlit Dashboard (Admin/Analytics · `streamlit_app.py`)
 
@@ -260,13 +254,10 @@ docker run -p 5000:5000 --env-file .env admission-agent
 ## 📦 Dependencies
 
 ```
-flask>=3.0.0          — Web framework (student-facing UI)
 streamlit>=1.35.0     — Admin dashboard + analytics UI
 pandas>=2.1.0         — Data tables and chart data
 python-dotenv>=1.0.0  — .env loader
-ibm-watsonx-ai>=0.2.6 — IBM Watsonx SDK
-requests>=2.31.0      — HTTP client / Flask health check
-gunicorn>=21.2.0      — WSGI production server
+requests>=2.31.0      — HTTP client / Flask health checkr
 ```
 
 ---
