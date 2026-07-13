@@ -109,8 +109,6 @@ Open your browser at **http://localhost:8501**
 | `WATSONX_API_KEY` | Yes | IBM Cloud API key |
 | `WATSONX_PROJECT_ID` | Yes | Watsonx.ai project ID |
 | `WATSONX_URL` | No | Watsonx endpoint (default: us-south) |
-| `FLASK_SECRET_KEY` | Yes | Flask session encryption key |
-| `FLASK_DEBUG` | No | Enable debug mode (default: True) |
 | `APP_PORT` | No | Flask HTTP port (default: 5000) |
 | `STREAMLIT_PORT` | No | Streamlit port (default: 8501) |
 
